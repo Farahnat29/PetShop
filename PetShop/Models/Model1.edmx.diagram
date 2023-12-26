@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7061cf096a844869954152d65941c604" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="PetShopModel.Kargo_Firmaları" Width="1.5" PointX="11" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PetShopModel.Kategoriler" Width="1.5" PointX="0.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PetShopModel.Markalar" Width="1.5" PointX="3" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PetShopModel.Müşteri_Adresleri" Width="1.5" PointX="11" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PetShopModel.Müşteriler" Width="1.5" PointX="3" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PetShopModel.Sepet" Width="1.5" PointX="5.25" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PetShopModel.SiparişDetayları" Width="1.5" PointX="8.25" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PetShopModel.Siparişler" Width="1.5" PointX="6" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PetShopModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PetShopModel.Ülke" Width="1.5" PointX="8.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PetShopModel.Ürünler" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PetShopModel.ÜrünMarka" Width="1.5" PointX="5.25" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="PetShopModel.ÜrünÖzellikleri" Width="1.5" PointX="5.25" PointY="15.125" IsExpanded="true" />
+        <AssociationConnector Association="PetShopModel.FK_Kargo_Firmaları_Ülke" ManuallyRouted="false" />
+        <AssociationConnector Association="PetShopModel.FK_Ürünler_Kategoriler" ManuallyRouted="false" />
+        <AssociationConnector Association="PetShopModel.FK_ÜrünMarka_Markalar" ManuallyRouted="false" />
+        <AssociationConnector Association="PetShopModel.FK_Müşteri_Adresleri_Müşteriler" ManuallyRouted="false" />
+        <AssociationConnector Association="PetShopModel.FK_Müşteri_Adresleri_Ülke" ManuallyRouted="false" />
+        <AssociationConnector Association="PetShopModel.FK_Sepet_Müşteriler" ManuallyRouted="false" />
+        <AssociationConnector Association="PetShopModel.FK_Siparişler_Müşteriler" ManuallyRouted="false" />
+        <AssociationConnector Association="PetShopModel.FK_Sepet_Ürünler" ManuallyRouted="false" />
+        <AssociationConnector Association="PetShopModel.FK_SiparişDetayları_Siparişler" ManuallyRouted="false" />
+        <AssociationConnector Association="PetShopModel.FK_SiparişDetayları_Ürünler" ManuallyRouted="false" />
+        <AssociationConnector Association="PetShopModel.FK_ÜrünMarka_Ürünler" ManuallyRouted="false" />
+        <AssociationConnector Association="PetShopModel.FK_ÜrünÖzellikleri_Ürünler" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
